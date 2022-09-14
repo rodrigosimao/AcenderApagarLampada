@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: 050px;
+}
+.img {
+  margin-bottom: 60px;
+}
+
+button {
+  width: 300px;
+  height: 40px;
+  font: bold 1.2rem serif;
+  background: #000000;
+  color: #ffffff;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.turnOnBtn {
+  display: none;
+}
+
+.turnOffBtn {
+  display: none;
+}
+
+.changeBtn {
+  display: none;
+}
